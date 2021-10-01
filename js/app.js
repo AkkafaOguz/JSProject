@@ -588,12 +588,13 @@ const sarkilar = [
   "audio/Business.mp3",
   "audio/Captain.mp3",
   "audio/Dragon.mp3",
-  "audio/Ezel.mp3",
   "audio/Ezel2.mp3",
   "audio/Makina.mp3",
+  "audio/Huzun.mp3",
+  "audio/Inanirim.mp3",
 ];
 renk.onclick = function () {
-  const sarki = Math.floor(Math.random() * 8);
+  const sarki = Math.floor(Math.random() * 9);
   const rastgele = Math.floor(Math.random() * 150);
   document.querySelector("main").style.backgroundColor = renkler[rastgele];
   document.querySelector("audio").src = sarkilar[sarki];
