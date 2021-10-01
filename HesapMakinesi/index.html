@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hesap Makinesi</title>
+    <link rel="stylesheet" href="css/css.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+      id="icon"
+    />
+  </head>
+  <body>
+    <div>
+      <main class="hesap-makinesi">
+        <div class="ekran">
+          <div class="output-islem"></div>
+          <div class="output"></div>
+        </div>
+        <div class="tus-takimi">
+          <table class="tuslar">
+            <tr>
+              <td><button class="C">C</button></td>
+              <td>
+                <button class="Silme"><i class="fas fa-backspace"></i></button>
+              </td>
+              <td><button class="modulus">%</button></td>
+              <td><button class="bolme">/</button></td>
+            </tr>
+            <tr>
+              <td><button class="yedi">7</button></td>
+              <td><button class="sekiz">8</button></td>
+              <td><button class="dokuz">9</button></td>
+              <td><button class="carpma">X</button></td>
+            </tr>
+            <tr>
+              <td><button class="dort">4</button></td>
+              <td><button class="bes">5</button></td>
+              <td><button class="alti">6</button></td>
+              <td><button class="cikartma">-</button></td>
+            </tr>
+            <tr>
+              <td><button class="bir">1</button></td>
+              <td><button class="iki">2</button></td>
+              <td><button class="uc">3</button></td>
+              <td><button class="toplama">+</button></td>
+            </tr>
+            <tr>
+              <td>
+                <button class="renk">
+                  Renk
+                  <hr />
+                  Muzik
+                </button>
+              </td>
+              <td><button class="sifir">0</button></td>
+              <td><button class="virgul">,</button></td>
+              <td><button class="esittir">=</button></td>
+              <audio autoplay loop src=""></audio>
+            </tr>
+          </table>
+        </div>
+      </main>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

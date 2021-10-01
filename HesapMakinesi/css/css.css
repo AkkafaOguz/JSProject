@@ -1,0 +1,92 @@
+table {
+  width: 550px;
+  height: 650px;
+}
+
+body {
+  text-align: center;
+}
+
+table tr {
+  width: 50px;
+}
+
+td {
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  width: 70px;
+}
+
+main {
+  border: 2px solid black;
+  width: 750px;
+  height: 850px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: coral;
+  border-radius: 10px;
+  margin-top: 50px;
+}
+
+.ekran {
+  border: 2px solid black;
+  width: 600px;
+  height: 130px;
+  position: absolute;
+  margin-top: 10px;
+  background-color: rgb(172, 171, 171);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.tus-takimi {
+  height: 650px;
+  margin-top: 170px;
+  position: absolute;
+  bottom: 25px;
+}
+
+td button {
+  border: none;
+  border-radius: 20px;
+  font-size: 30px;
+  background-color: rgb(88, 87, 87);
+  color: white;
+  width: 120px;
+  height: 120px;
+  cursor: pointer;
+}
+
+.renk {
+  background-image: black;
+}
+
+td button:hover {
+  background-color: rgb(172, 171, 171);
+}
+
+.renk:hover {
+  box-shadow: 2px 2px 30px black;
+  color: black;
+}
+
+.ekran .output {
+  text-align: start;
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 30px;
+  height: 35px;
+}
+
+.output-islem {
+  text-align: start;
+  margin-left: 20px;
+  margin-top: 20px;
+  font-size: 30px;
+  height: 35px;
+}
